@@ -1,0 +1,100 @@
+{
+  "trainers": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "isActive": true,
+      "specialization": "Bodybuilder"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "isActive": false,
+      "specialization": "Powerlifter"
+    }
+  ],
+  "trainees": [
+    {
+      "id": 1,
+      "firstname": "Alice",
+      "lastname": "Brown",
+      "isActive": true,
+      "address": {
+        "city": "Paris",
+        "street": "Boulevard",
+        "building": "Blue_Sky",
+        "buildingNumber": "5101"
+      },
+      "birthdate": "1987-05-09"
+    },
+    {
+      "id": 2,
+      "firstname": "Bob",
+      "lastname": "White",
+      "isActive": false,
+      "address": {
+        "city": "Yerevan",
+        "street": "Bond",
+        "building": "Elit_Plaza",
+        "buildingNumber": "3102"
+      },
+      "birthdate": "1987-05-09"
+    }
+  ],
+  "trainings": [
+    {
+      "trainee": {
+        "birthdate": "1987-05-09",
+        "id": 1,
+        "firstname": "John",
+        "lastname": "Doe",
+        "isActive": true,
+        "address": {
+          "city": "Yerevan",
+          "street": "yellowstone",
+          "building": "Elit_Plaza",
+          "buildingNumber": "3102"
+        }
+      },
+      "trainer": {
+        "id": 1,
+        "firstname": "Alice",
+        "lastname": "Brown",
+        "isActive": true,
+        "specialization": "master of aerobics"
+      },
+      "trainingName": "aerobics in healthcare",
+      "type": "AEROBICS",
+      "trainingDate": "2024-05-21 11:00:00",
+      "duration": 2.5
+    },
+    {
+      "trainee": {
+        "birthdate": "1987-05-09",
+        "id": 2,
+        "firstname": "John",
+        "lastname": "Doe",
+        "isActive": false,
+        "address": {
+          "city": "New-York",
+          "street": "York",
+          "building": "Elit_Plaza",
+          "buildingNumber": "3102"
+        }
+      },
+      "trainer": {
+        "id": 2,
+        "firstname": "Alice",
+        "lastname": "Brown",
+        "isActive": true,
+        "specialization": "orthopedic surgeon"
+      },
+      "trainingName": "skeletal muscle",
+      "type": "MUSCULAR",
+      "trainingDate": "2024-05-21 11:00:00",
+      "duration": 2.5
+    }
+  ]
+}
